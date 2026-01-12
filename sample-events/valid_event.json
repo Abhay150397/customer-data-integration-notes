@@ -1,0 +1,6 @@
+{
+  "event_type": "product_click",
+  "item_id": "SKU12345",
+  "user_id": "user_001",
+  "timestamp": "2026-01-12T10:15:30Z"
+}
