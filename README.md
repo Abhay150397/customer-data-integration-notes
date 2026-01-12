@@ -46,4 +46,25 @@ The goal is to demonstrate understanding of how events flow from the browser to 
 
 ---
 
+## Live Production Event Debugging (Amazon)
+
+The screenshots below show how customer event data and backend API responses can be inspected in a real production e-commerce environment using Chrome DevTools.
+
+This example uses Amazon to demonstrate how cart and session data flows from the browser to backend systems.
+
+### Network Request Headers
+
+This screenshot shows the API endpoint, HTTP method, and HTTP status used when Amazon fetches cart data.
+
+![Amazon Network Request Headers](screenshots/amazon_network_request_headers.png)
+
+### Network Response Payload
+
+This screenshot shows the raw JSON returned by Amazon’s backend, including session identifiers, locale, and shopping data.
+
+![Amazon Network Response Payload](screenshots/amazon_network_response_payload.png)
+
+---
+
 **This repository reflects how I think about customer data reliability and integration health in real systems.**
+
