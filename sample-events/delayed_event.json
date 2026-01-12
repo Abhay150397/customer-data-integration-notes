@@ -1,0 +1,6 @@
+{
+  "event_type": "purchase",
+  "item_id": "SKU99999",
+  "user_id": "user_001",
+  "timestamp": "2026-01-05T10:15:30Z"
+}
